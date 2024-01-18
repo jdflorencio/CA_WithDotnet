@@ -1,5 +1,4 @@
-﻿using Abp.Domain.Uow;
-using CleanArchitecture.Domain.Interfaces;
+﻿using CleanArchitecture.Domain.Interfaces;
 using CleanArchiteture.Persistence.Context;
 
 
