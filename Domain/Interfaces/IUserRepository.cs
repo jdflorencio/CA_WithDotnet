@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Domain.Interfaces
+namespace CleanArchitecture.Domain.Interfaces;
+
+public Interface IUserRepository 
 {
-    public Interface IUserRepository 
-    {
-    }
 }
