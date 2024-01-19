@@ -1,13 +1,10 @@
 ﻿using CleanArchitecture.Domain.Interfaces;
 using CleanArchiteture.Persistence.Context;
 using CleanArchiteture.Persistence.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CleanArchiteture.Persistence;
 
@@ -22,5 +19,4 @@ public static class ServiceExtensions
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IUserRepository, UserRepository>();
     }
-
 }
