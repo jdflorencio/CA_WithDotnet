@@ -1,10 +1,10 @@
 ﻿using CleanArchitecture.Domain.Entities;
-using CleanArchiteture.Persistence.Context;
+using CleanArchitecture.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using CleanArchitecture.Domain.Interfaces;
 
 
-namespace CleanArchiteture.Persistence.Repositories;
+namespace CleanArchitecture.Persistence.Repositories;
 
 public class UserRepository: BaseRepository<User>, IUserRepository
 {

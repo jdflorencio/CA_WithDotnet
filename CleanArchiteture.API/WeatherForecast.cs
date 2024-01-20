@@ -1,4 +1,4 @@
-namespace CleanArchiteture.API
+namespace CleanArchitecture.API
 {
     public class WeatherForecast
     {

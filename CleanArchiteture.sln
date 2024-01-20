@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{A6680307-82DE-4278-8A16-0D8955A6F7F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchiteture.Persistence", "Persistence\CleanArchiteture.Persistence.csproj", "{FE272D86-FB57-4264-BFE1-F13C52F156A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Persistence", "Persistence\CleanArchitecture.Persistence.csproj", "{FE272D86-FB57-4264-BFE1-F13C52F156A5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchiteture.API", "CleanArchiteture.API\CleanArchiteture.API.csproj", "{0A3845F4-CA04-4886-815F-FBE1539F5EBE}"
 EndProject

@@ -1,5 +1,5 @@
 using CleanArchitecture.Persistence.Context;
-using CleanArchiteture.Persistence;
+using CleanArchitecture.Persistence;
 using CleanArchitecture.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
