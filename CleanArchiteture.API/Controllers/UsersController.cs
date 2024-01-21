@@ -1,6 +1,5 @@
 ﻿using CleanArchitecture.Application.UseCases.CreateUser;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchiteture.API.Controllers
