@@ -1,8 +1,8 @@
 ﻿using CleanArchitecture.Domain.Interfaces;
-using CleanArchiteture.Persistence.Context;
+using CleanArchitecture.Persistence.Context;
 
 
-namespace CleanArchiteture.Persistence.Repositories;
+namespace CleanArchitecture.Persistence.Repositories;
 
 public class UnitOfWork: IUnitOfWork
 {
