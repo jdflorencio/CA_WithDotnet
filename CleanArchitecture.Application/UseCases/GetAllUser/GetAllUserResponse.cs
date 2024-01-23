@@ -1,8 +1,8 @@
 ﻿
-//dto
-namespace CleanArchitecture.Application.UseCases.CreateUser;
 
-public  record CreateUserResponse
+namespace CleanArchitecture.Application.UseCases.GetAllUser;
+
+public sealed record GetAllUserResponse
 {
     public Guid Id { get; set; }
     public string? Email { get; set; }
