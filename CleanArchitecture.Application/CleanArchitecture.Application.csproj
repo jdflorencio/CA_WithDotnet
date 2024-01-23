@@ -7,13 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="UseCases\UpdateUser\UpdateUserValidator.mbconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Domain\CleanArchitecture.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Shared\Exceptions\" />
     <Folder Include="UseCases\DeleteUser\" />
-    <Folder Include="UseCases\UpdateUser\" />
   </ItemGroup>
 
   <ItemGroup>
