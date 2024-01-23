@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.UseCases.CreateUser;
+using CleanArchitecture.Application.UseCases.GetAllUser;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,13 @@ namespace CleanArchiteture.API.Controllers
             _mediator = mediator;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<List<GetAllUserResponse>>> GetAll(CancellationToken cancellationToken)
+        {
+            var response = await _mediator.Send(new GetAllUserResponse(), cancellationToken);
+            return Ok(response);
+        }
+
         [HttpPost]
         public async Task<ActionResult<CreateUserResponse>> Create(CreateUserRequest request, CancellationToken cancellationToken)
         {
@@ -26,10 +34,10 @@ namespace CleanArchiteture.API.Controllers
                 return BadRequest(validationResult);
             }*/
 
-
-
             var response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
-        }        
+        }
+
     }
+
 }
